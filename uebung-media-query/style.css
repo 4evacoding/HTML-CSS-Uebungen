@@ -34,3 +34,22 @@ body {
 .row {
   display: block;
 }
+
+/*wenn der Bildschirm breiter ist als 1024px*/
+@media (min-width: 1024px) {
+  body {
+    background: red;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1023px) {
+  body {background: cyan;  }
+}

@@ -25,6 +25,7 @@ figcaption {
   margin: 0;
 }
 
+
 h1,
 h2 {
   font-family: 'Geomanist Bold';
@@ -37,6 +38,10 @@ figcaption {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 5rem;
+  position: absolute;
+  bottom: 0px;
+  left:150px;
+
 }
 
 /* Set core body defaults */
@@ -68,10 +73,15 @@ img {
   min-height: 400px;
   max-width: 100%;
   margin: auto;
+  position: relative;
+  top:10rem;
+  
 }
 
 .pink {
   color: rgb(255, 45, 85);
+  position:absolute;
+  z-index: 2;
 }
 
 .pink-background {
@@ -80,6 +90,8 @@ img {
 
 .green {
   color: rgb(15, 75, 28);
+  position:absolute;
+  z-index: 2;
 }
 
 .text-shadow-light {
@@ -92,6 +104,8 @@ img {
 
 .yellow {
   color: rgb(255, 213, 0);
+  position:absolute;
+  z-index: 2;
 }
 
 .yellow-background {
@@ -100,6 +114,8 @@ img {
 
 .orange {
   color: rgb(245, 99, 0);
+  position:absolute;
+  z-index: 2;
 }
 
 .orange-background {
@@ -108,4 +124,14 @@ img {
 
 figure {
   max-width: 400px;
+  position:absolute;
+  z-index: 3;
 }
+
+
+h1 {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  }

@@ -1,1 +1,21 @@
+/* Block Element, erzeugt Zeilenumbruch nach sich */
+div {
+  background-color: red;
+}
 
+a {
+  background: pink;
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+
+span {
+  color: coral;
+  display: inline;
+}
+
+img {
+  width: 300px;
+  display: inline-block;
+}

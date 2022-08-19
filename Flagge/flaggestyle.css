@@ -1,0 +1,110 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.container {
+  width: 568px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flagge {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+p {
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
+
+/*nur für mobile*/
+@media screen and (max-width: 767px) {
+  #eins {
+    background-color: forestgreen;
+    min-height: 200px;
+    width: 100%;
+  }
+
+  #zwei {
+    background-color: white;
+    min-height: 200px;
+    width: 100%;
+  }
+
+  #drei {
+    background-color: red;
+    min-height: 200px;
+    width: 100%;
+  }
+  #de,
+  #fr {
+    display: none;
+  }
+}
+
+/*nur für Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .flagge {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #eins {
+    border: 2rem solid black;
+  }
+
+  #zwei {
+    border: 2rem solid red;
+  }
+
+  #drei {
+    border: 2rem solid gold;
+  }
+  #it,
+  #fr {
+    display: none;
+  }
+}
+
+/*nur für Desktop*/
+@media screen and (min-width: 1024px) {
+
+  #eins {
+    background-color: blue;
+    min-height: 200px;
+    width: 100%;
+  }
+
+  #zwei {
+    background-color: white;
+    min-height: 200px;
+    width: 100%;
+  }
+
+  #drei {
+    background-color: red;
+    min-height: 200px;
+    width: 100%;
+  }
+  #it,
+  #de {
+    display: none;
+  }
+}
